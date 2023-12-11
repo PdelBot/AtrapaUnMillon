@@ -1,6 +1,6 @@
 package clases;
 
-public class Usuario {
+public class Jugador {
 
 	private String nombre;
 	private String apellidos;
@@ -9,7 +9,7 @@ public class Usuario {
 	private int edad;
 	private String motivo;
 	
-	public Usuario(String nombre, String apellidos, double dinero, String residencia, int edad, String motivo) {
+	public Jugador(String nombre, String apellidos, double dinero, String residencia, int edad, String motivo) {
 		this.nombre = nombre;
 		this.apellidos = apellidos;
 		this.dinero = dinero;

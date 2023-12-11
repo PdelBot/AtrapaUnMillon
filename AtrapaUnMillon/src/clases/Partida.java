@@ -5,12 +5,12 @@ import java.util.Arrays;
 public class Partida {
 
 	private int numPartida;
-	private Usuario [] usuarios;
+	private Jugador [] usuarios;
 	private Preguntas [] preguntas;
 	private Preguntas [] respuestasCorrectas;
 	private Preguntas [] respuestasIncorrectas;
 	
-	public Partida(int numPartida, Usuario[] usuarios, Preguntas[] preguntas, Preguntas[] respuestasCorrectas,
+	public Partida(int numPartida, Jugador[] usuarios, Preguntas[] preguntas, Preguntas[] respuestasCorrectas,
 			Preguntas[] respuestasIncorrectas) {
 		
 		this.numPartida = numPartida;
@@ -30,11 +30,11 @@ public class Partida {
 		this.numPartida = numPartida;
 	}
 
-	public Usuario[] getUsuarios() {
+	public Jugador[] getUsuarios() {
 		return usuarios;
 	}
 
-	public void setUsuarios(Usuario[] usuarios) {
+	public void setUsuarios(Jugador[] usuarios) {
 		this.usuarios = usuarios;
 	}
 
